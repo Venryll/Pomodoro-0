@@ -364,6 +364,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pomodoro-0/Pomodoro-0-Prefix.pch";
 				INFOPLIST_FILE = "Pomodoro-0/Pomodoro-0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +378,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pomodoro-0/Pomodoro-0-Prefix.pch";
 				INFOPLIST_FILE = "Pomodoro-0/Pomodoro-0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -446,6 +448,7 @@
 				EC807A0D136F55400025FE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC807A0E136F55400025FE95 /* Build configuration list for PBXNativeTarget "Pomodoro-0Tests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +457,7 @@
 				EC807A10136F55400025FE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
