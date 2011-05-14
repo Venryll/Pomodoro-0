@@ -11,7 +11,7 @@
 @implementation Pomodoro_0ViewController
 
 @synthesize textLabel, sucesso;
-@synthesize segundos, minutos;
+@synthesize seconds, minutes;
 @synthesize time;
 @synthesize up, down;
 @synthesize running;
