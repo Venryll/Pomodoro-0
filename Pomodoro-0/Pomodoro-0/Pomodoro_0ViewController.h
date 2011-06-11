@@ -11,7 +11,7 @@
 @interface Pomodoro_0ViewController : UIViewController 
 {
     IBOutlet UILabel *textLabel, *sucesso;
-    int minutes, seconds;
+    int minutos, segundos;
     
     BOOL running;
     
@@ -21,7 +21,7 @@
 }
 
 @property (nonatomic, retain)UILabel *textLabel, *sucesso;
-@property (nonatomic)int seconds, minutes;
+@property (nonatomic)int segundos, minutos;
 @property (nonatomic, retain) NSTimer *time;
 @property (nonatomic, retain) UIButton *up, *down;
 @property (nonatomic) BOOL running;
